@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR4j0026/v1
+canonical_location: https://kanripo.org/bkk/KR4j0026/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 無住詞
+  date: '2015-08-25 00:47:39.080875'
+  source:
+    repository: kanripo
+    path: KR4j0026
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR4j0026_000.yaml, hash: 'sha256:401cb834dfa17ba021497fc1d89ca58d6214bc7f76baa660b6d87fc611606873'}
+  - {seq: 1, filename: KR4j0026_001.yaml, hash: 'sha256:f685fe52c578330b87958ef18ae2986df63978112c19295e4f6ef915a65be0ef'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4j0026_000.markers.yaml, hash: 'sha256:5f518bd09169fcaf46ec5b84e1bbbc235f07986e8ad2d5bba704c88fbbf204e2'}
+  - {seq: 1, role: markers, filename: assets/KR4j0026_001.markers.yaml, hash: 'sha256:04859443da75b4bc88de0b34e8bb478ff7e35818cf55628bc6165b489c643427'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4j0026_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 685
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4j0026_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 1190
+  label: 無住詞
+  type: section
+  level: 1
+hash: sha256:9fc7e36d3e350e44041156eaee2155c5b7161ca9d98670c4a1aaf24233cb4d5c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
